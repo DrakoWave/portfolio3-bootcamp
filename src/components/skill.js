@@ -24,7 +24,7 @@ export default function Skill() {
   };
 
   return (
-    <div className="p-8 min-h-screen w-full bg-gradient-to-b from-gray-100 to-white">
+    <div className="p-8 min-h-fit w-full bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div id="Skills" className="text-center mb-12">
           <h2 className="pb-2 text-4xl font-bold bg-gradient-to-r from-red-600 via-amber-500 to-orange-500 bg-clip-text text-transparent">
@@ -35,7 +35,7 @@ export default function Skill() {
           </p>
         </div>
         {/*Toggle button*/}
-        <div className="flex justify-center mb-1 space-x-4">
+        <div className="flex justify-center mb-6 space-x-4">
           <button
             onClick={() => setSkill("technical")}
             className={`px-6 py-3 rounded-lg text-semibold text-lg transition-all duration-200 ${
