@@ -1,4 +1,4 @@
-import React from "react";
+terimport React from "react";
 import { Github, Linkedin } from "lucide-react";
 export default function Footer() {
   return (
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
           <div className="text-center">
             <h3 className="text-xl mb-4 font-bold">Connect</h3>
-            <div className="flex justify-center md:justify-end space-x-4">
+            <div className="flex justify-center md:justify-center space-x-4">
               <a
                 href=""
                 className="text-white/80 hover:text-red-900 transition-color duration-200"
